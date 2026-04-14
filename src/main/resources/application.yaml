@@ -1,0 +1,7 @@
+server:
+  port: 9083
+
+twilio:
+  account-sid: ${TWILIO:SID}
+  auth-token: ${TWILIO:TOKEN}
+  from-number: ${TWILIO:PHONENUMBER}
